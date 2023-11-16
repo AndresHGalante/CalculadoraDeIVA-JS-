@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<header>
+    <div>
+        <h1 class="title">¡¡Bienvenido a mi calculadora de IVA!!</h1>
+    </div>
+</header>
+<div class="container">
+    <div class="input-buttons">
+        <div class="input-box">
+            <input type="text" id="objetoInput" placeholder="Ingrese un producto">
+        </div>
+        <div class="input-box">
+            <input type="number" id="precioInput" placeholder="Ingrese el precio">
+        </div>
+        <div class="button-box">
+            <button id="agregarBtn">Agregar</button>
+            <button id="borrarBtn">Borrar Lista</button>
+        </div>
+    </div>
+    <ol id="listaObjetos"></ol>
+</div>
+    <script src="calculator.js"></script>
+</body>
+</html>
